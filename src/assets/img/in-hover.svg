@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="in-hover" transform="translate(933 28)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(-933 -28)" fill="none" stroke="#005de5" stroke-width="2">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19" fill="none"/>
+    </g>
+    <g id="in" transform="translate(-921.41 -17.857)">
+      <path id="Path_12" data-name="Path 12" d="M2.209-.668a2.036,2.036,0,1,0-.051,4.06h.025a2.036,2.036,0,1,0,.026-4.06Zm0,0" transform="translate(0 0.668)" fill="#005de5"/>
+      <path id="Path_13" data-name="Path 13" d="M8.109,198.313h3.905v11.75H8.109Zm0,0" transform="translate(-7.879 -192.649)" fill="#005de5"/>
+      <path id="Path_14" data-name="Path 14" d="M228.64,188.625a4.893,4.893,0,0,0-3.52,1.98v-1.7h-3.906v11.75h3.905v-6.562a2.676,2.676,0,0,1,.129-.953,2.138,2.138,0,0,1,2-1.428c1.413,0,1.978,1.077,1.978,2.657v6.286h3.905v-6.737c0-3.609-1.927-5.288-4.5-5.288Zm0,0" transform="translate(-214.918 -183.236)" fill="#005de5"/>
+    </g>
+  </g>
+</svg>

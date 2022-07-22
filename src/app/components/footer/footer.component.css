@@ -1,0 +1,39 @@
+.row.navega{
+   margin-left: 425px;
+    margin-top: 30px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+
+   
+}
+
+.networksSocial{
+filter: grayscale(80%);
+opacity: 50%;
+}
+.networksSocial:hover{
+filter: grayscale(0%);
+opacity: 90%;
+}
+.center{
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.nav-item{
+        text-align: left;
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #AAAAAA;
+        opacity: 1;
+    }
+   
+
+.copyright{
+justify-content: center;
+}
+
+.copyright p{
+
+color:#74808a}
