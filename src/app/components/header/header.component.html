@@ -1,8 +1,7 @@
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a [routerLink]="[ 'home']"><img class="logoArgentinaprograma"
+    <div id="backgroundHeader">
+        <div class="row align-items-center">
+            <div class="col-3 align-self-center">
+                <a href="javascript:void(0);" (click)="getShowBanner()"><img class="logoArgentinaprograma"
                         src="../../../assets/img/APLogo-20-20.png" class="img-fluid" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -10,7 +9,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div class="col-6 navega">
+            <div class="col-6 align-self-center navega">
                 <a href="https://www.facebook.com/juidth.leonardo/"><img class="networksSocial"
                         src="../../../../assets/img/fb-hover.svg" alt="Image" height="40" width="40" HSPACE="10"
                         VSPACE="10" /></a>
@@ -19,17 +18,20 @@
                         VSPACE="10" /></a>
                 <a href="https://github.com/judith91"><img class="networksSocial"
                         src="../../../../assets/img/git-hover.svg" alt="Image" height="40" width="40" HSPACE="10"
-                        
                         SPACE="10" /></a>
             </div>
-            <div class="col">
-                <a routerLink="login" routerLinkActive="active"> Login</a>
-                <a class="nav-link" >Logout </a>
+            <div class="col-3 align-self-center">
+                <a [routerLink]="[ isLogin? '': '/login']">{{isLogin? 'Logout':'Login'}}</a> 
             </div>
-
-
+            
+            
+        </div>
+        
+        <div *ngIf="showBanner" class="row">
+            <div class="col">
+                <img class="bannerStyle" src="../../../assets/img/banner.png" alt="">
+            </div>
         </div>
     </div>
-</header>
 
 <!-- End header -->
